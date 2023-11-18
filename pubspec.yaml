@@ -1,0 +1,206 @@
+name: khedma
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.1+10
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  android_intent_plus: ^4.0.3
+  android_path_provider: ^0.3.0
+  badges: ^3.1.2
+  carousel_slider: ^4.2.1
+  chips_choice: ^3.0.0
+  cupertino_icons: ^1.0.2
+  custom_rating_bar: ^2.0.5
+  device_info_plus: ^9.1.0
+  device_preview: ^1.1.0
+  dio: ^5.2.1+1
+  dotted_border: ^2.0.0+3
+  dropdown_button2: ^2.3.6
+  dropdown_textfield: ^1.0.8
+  easy_stepper: ^0.7.2
+  email_validator: ^2.1.17
+  eva_icons_flutter: ^3.1.0
+  expandable: ^5.0.1
+  file_picker: ^5.3.3
+  firebase_core: ^2.15.1
+  firebase_messaging: ^14.6.7
+  fl_chart:
+  flutter:
+    sdk: flutter
+  flutter_animation_progress_bar: ^2.3.1
+  flutter_chat_bubble: ^2.0.2
+  flutter_chat_types: ^3.6.2
+  flutter_chat_ui: ^1.6.9
+  flutter_custom_clippers: ^2.1.0
+  change_app_package_name:
+  flutter_downloader: ^1.11.3
+  # flutter_facebook_auth: ^6.0.1
+  flutter_file_dialog: ^3.0.2
+
+  flutter_html_to_pdf:
+    path: "html_to_pdf"
+  flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^15.1.1
+  flutter_multi_formatter: ^2.11.2
+  flutter_rating_bar: ^4.0.1
+  flutter_secure_storage: ^8.0.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_zoom_drawer: ^3.1.1
+  fluttertoast: ^8.2.2
+  font_awesome_flutter: ^10.5.0
+  get: ^4.6.5
+  google_fonts:
+  translator:
+  google_sign_in: ^6.1.4
+  # htmltopdfwidgets: ^0.0.9+1
+  iban: ^1.0.1
+  iconsax: ^0.0.8
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+  intl_phone_field: ^3.2.0
+  jwt_decoder: ^2.0.1
+  line_icons: ^2.0.3
+  local_auth: ^2.1.7
+  material_dialogs: ^1.1.4
+  mime: ^1.0.4
+  multi_select_flutter: ^4.1.3
+  omni_datetime_picker: ^1.0.9
+  # open_file: ^3.3.2
+  # open_filex: ^4.3.2
+  open_file: ^3.3.2
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.1
+  printing: ^5.11.0
+  restart_app: ^1.2.1
+  rxdart: ^0.27.7
+  screenshot: ^2.1.0
+  signature: ^5.4.0
+  sizer: ^2.0.15
+  sticky_headers: ^0.3.0+2
+  syncfusion_flutter_sliders: ^22.1.37
+  textfield_datepicker: ^0.2.0
+  toggle_switch: ^2.1.0
+  url_launcher: ^6.1.14
+  uuid: ^3.0.7
+  webview_flutter: ^4.4.1
+  webview_flutter_android: ^3.12.0
+# chatview: ^1.3.0
+# contained_tab_bar_view: ^0.8.0
+# flutter_native_splash: ^2.3.1
+dev_dependencies:
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter:
+  fonts:
+    - family: Gabriola
+      fonts:
+        - asset: assets/fonts/Gabriola.ttf
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/email.zip
+    - assets/message.zip
+    - assets/messages.json
+    - assets/images/splash_logo.png
+    - assets/images/adv_background.png
+    # - assets/images/contract.png
+    - assets/images/splash_background.png
+    - assets/images/logo.png
+    - assets/images/logo_background.png
+    - assets/images/app_logo.png
+    # - assets/images/logo1.png
+    # - assets/images/logo0.png
+    # - assets/images/image.png
+    # - assets/images/id.png
+    - assets/images/logo_white.png
+    - assets/images/facebook.png
+    - assets/images/google.png
+    - assets/images/apple.png
+    - assets/images/finished.png
+    - assets/images/well-done.png
+    - assets/images/filter-icon.png
+    # - assets/images/g_pay.png
+    # - assets/images/apple_pay.png
+    # - assets/images/knet.png
+    # - assets/images/ms_card.png
+    # - assets/images/visa.png
+    # - assets/images/mf.png
+    - assets/images/warning.png
+    - assets/images/invoice_background.png
+    # - assets/images/sewing.png
+    # - assets/images/washing.png
+    # - assets/images/babysitter.png
+    # - assets/images/chef.png
+    # - assets/images/cleaner.png
+    # - assets/images/driver.png
+    # - assets/images/nurse.png
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # - asset: fonts/Schyler-Italic.ttf
+#   - family: Trajan Pro
+#     fonts:
+#       - asset: fonts/TrajanPro.ttf
+#       - asset: fonts/TrajanPro_Bold.ttf
+#         weight: 700
+#
+# For details regarding fonts from package dependencies,
+# see https://flutter.dev/custom-fonts/#from-packages
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logoXXC.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: false
+  adaptive_icon_background: "assets/images/logo_background.png"
+  adaptive_icon_foreground: "assets/images/app_logo.png"
+# flutter_native_splash:
+#   color: "#225153"
+#   # background_image: "assets/images/splash.png"
+#   android_12:
+#     color: "#225153"
+#     # image: "assets/images/splash.png"

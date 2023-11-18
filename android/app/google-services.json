@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "705392766739",
+    "project_id": "khedma-92ce7",
+    "storage_bucket": "khedma-92ce7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705392766739:android:86be2101e214c801ed74e6",
+        "android_client_info": {
+          "package_name": "com.dropidea.khedma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705392766739-kaluo3fn755vdgrq4e37khk0e9hrqs7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dropidea.khedma",
+            "certificate_hash": "346ab3ffe21e5242a74e37f367c5d0732c9e210b"
+          }
+        },
+        {
+          "client_id": "705392766739-00is627hvdo6v5v9djl5jpnhh890evdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq1Egf2gaRF5Rwd2Pj1ff-neFkYVbNnjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705392766739-00is627hvdo6v5v9djl5jpnhh890evdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
